@@ -1,0 +1,3 @@
+composite.fsh
+
+vec3 torchcolor = vec3(1.0f, 0.55f, 0.3f)*torchbalance;
