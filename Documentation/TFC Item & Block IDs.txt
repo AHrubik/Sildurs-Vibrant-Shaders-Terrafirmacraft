@@ -1,4 +1,7 @@
 Terrafirmacraft Shaders entity ids
+
+gbuffers_terrain.vsh
+
 Waving Grass
  || mc_Entity.x == 204.0 || mc_Entity.x == 204.2 || mc_Entity.x == 435.0 || mc_Entity.x == 435.1 || mc_Entity.x == 435.2 || mc_Entity.x == 435.3 || mc_Entity.x == 435.4 || mc_Entity.x == 435.5 || mc_Entity.x == 435.6 || mc_Entity.x == 435.7 || mc_Entity.x == 435.8 || mc_Entity.x == 435.9 || mc_Entity.x == 435.10 || mc_Entity.x == 435.11 || mc_Entity.x == 435.12 || mc_Entity.x == 435.13 || mc_Entity.x == 435.14 || mc_Entity.x == 435.15
  
@@ -16,3 +19,8 @@ Flowers
  
 Saplings
  || mc_Entity.x == 4571.0 || mc_Entity.x == 4571.1 || mc_Entity.x == 4571.2 || mc_Entity.x == 4571.3 || mc_Entity.x == 4571.4 || mc_Entity.x == 4571.5 || mc_Entity.x == 4571.6 || mc_Entity.x == 4571.7 || mc_Entity.x == 4571.8 
+
+
+gbuffers_water.vsh (search for "mc_Entity.x == 8.0") (two lines to change)
+
+ || mc_Entity.x == 426.0 || mc_Entity.x == 427.0 || mc_Entity.x == 428.0 || mc_Entity.x == 429.0
